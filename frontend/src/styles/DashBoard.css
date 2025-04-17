@@ -1,0 +1,146 @@
+
+
+.dashboard {
+     
+     padding:2rem;
+     background-color: #7d9d87;
+     min-height: 100vh;
+     display:flex;
+     justify-content:center;
+     align-items: flex-start;
+     padding: 2rem 1rem; 
+
+}
+  
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#0e0e0e;
+    font-size: 1.5rem;
+    
+}
+
+
+.barfilter{
+   
+     
+   
+    justify-content: center;
+    
+    gap:1rem;
+    
+    
+    border-radius: 10px;
+    display:flex;
+    margin-top: 1rem;
+    margin-bottom:1rem ;
+    
+    
+}
+
+
+.barfilter input,
+.barfilter select{
+    display:inline-block;
+    margin-right: 15px;
+    margin-left: 40px;
+    padding:20px;
+    align-items:center;
+
+    padding:0.5rem;
+    font: size 0.4em;
+    border-radius: 6px;
+    border:1px solid #030303;
+    flex:1;
+    width: 100%;
+    max-width:200px;
+    margin:0 10px;
+     
+}
+
+
+.taskList{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width:85%;
+    max-width:535px;
+    background-color:   #b3c6a9;
+    padding:20px;
+    border-radius: 40px;
+    box-shadow:0 6px 16px rgba(0, 0, 0, 0.15);
+    
+    
+
+}
+.task-form{
+    max-width:500px;
+    width:100%;
+    margin:0 auto;
+    background-color: #aabea2;
+    border-radius: 1rem;
+    padding:2rem;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.task-form h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #999;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.task-form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.task-form button:hover {
+    background-color: #333;
+}
+  
+  
+
+.dashboard{
+    background-image: url('../assets/img.jpg'); /* adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+
+@media(max-width:768px){
+    .task-form{
+        padding:1rem;
+        width: 90%;
+    }
+}

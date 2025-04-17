@@ -1,0 +1,36 @@
+.EachTaskWidth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+}
+
+.task-card{
+    max-width: 600px;
+    width:100%;
+    margin-bottom:1rem;
+    padding:15px;
+    border:2px solid #141212;
+    border-radius: 10px;
+    background-color: #E9EED9;
+    
+   box-shadow: 0 0 8px rgba(0,0,0,0.1);
+
+
+}
+
+.no-tasksyet{
+    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #393939;
+}
+@media(max-width:600px){
+    .task-card{
+        max-width:100%;
+        padding:10px;
+    }
+}

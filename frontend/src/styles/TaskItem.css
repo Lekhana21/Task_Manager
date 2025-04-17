@@ -1,0 +1,63 @@
+.taskCardEdit{
+  border:1px solid #e9b7b7;
+  background-color:#f7e8e8;
+  padding:12px;
+  margin-bottom:12px;
+  border-radius: 8px;
+}
+
+.taskCardEdit:hover{
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.titleOfTask{
+  margin:0 0 4px;
+  font-size:1.2rem;
+  color:#333;
+}
+
+.DescriptionOfTask{
+  color:#555;
+  margin-bottom: 8px;
+}
+
+/*from here*/
+.statusOftask {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.statusOftask.completed {
+  color: green;
+}
+
+.statusOftask.pending {
+  color: red;
+}
+
+.Buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.Buttons button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Buttons button:hover {
+  background-color: #ddd;
+}
+
+.deletebutton {
+  color: white;
+  background-color: crimson;
+}
+
+.deletebutton:hover {
+  background-color: #a10000;
+}

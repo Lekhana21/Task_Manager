@@ -1,0 +1,95 @@
+.auth{
+    width:100%;
+    
+    max-width:400px;
+    margin:50px auto;
+    padding:20px;
+    background:#7b9851;
+    border-radius: 8px;
+    
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+.form-box {
+    background:#A5B68D;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.authfield{
+    margin-bottom:20px;
+}
+
+.authfield label{
+    display:block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+.authfield input{
+    width:100%;
+    padding:8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius:4px;
+}
+.authButton{
+    width:100%;
+    padding:10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    background-color: #007;
+    color:white;
+    border:none;
+
+}
+
+.statusMessage{
+    padding:10px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:1rem;
+    border-radius:4px;
+}
+
+.statusMessage.warning{
+    background-color: blue;
+    color:#ccc
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

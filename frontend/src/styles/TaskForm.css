@@ -1,0 +1,69 @@
+
+/*create task*/
+.task-form-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;       
+  padding: 20px;
+  background-color:  #dce7dc; ;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    
+}
+
+  
+
+.task-form__field{
+  width:100%;
+  max-width:600px;
+  margin:0 auto;
+}
+
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  max-width:500px;
+  
+  
+  padding: 10px;
+  border: 1px solid #040404;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing:border-box;
+  
+}
+
+.task-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.task-form button {
+  background: #060806;
+  color:#E9EED9;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-top:8px;
+  cursor: pointer;
+}
+
+@media(max-width:600px){
+  .task-form-container{
+    width:100%;
+    padding:15px;
+
+  }
+  .task-form__field{
+    font-size: 18px;
+
+  }
+  .task-form input,
+  .task-form textarea,
+  .task-form select{
+    font-size:16px;
+  }
+}
