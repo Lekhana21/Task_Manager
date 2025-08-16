@@ -1,29 +1,27 @@
-#  Task Manager App
+# Task Manager App
 
-A full-stack Task Management web application that allows users to sign up, log in, and manage tasks easily. Built using **React**, **Node.js**, **Express**, and **MongoDB**.
+A full-stack Task Management web application that allows users to sign up, log in, and manage tasks efficiently. Built using **React**, **Node.js**, **Express**, and **MongoDB**.
 
 ---
 
 ## Live Demo
 
-[👉 Click here to view the deployed app](https://your-deployed-link.com)  
-*(Replace this with your actual live site link if available)*
+[👉 Click here to view the deployed app](https://lekhana21.github.io/Task_Manager/)
 
 ---
 
 ## Features
 
--User Authentication (Register & Login using JWT)
--Create, Read, Update, Delete (CRUD) Tasks
--Categorize tasks with tags or categories
+- User Authentication (Register & Login using JWT)
+- Create, Read, Update, Delete (CRUD) Tasks
+- Categorize tasks with tags or categories
 - Mark tasks as completed or pending
 - Search tasks by title
-- view tasks based on if they are completed or pending
-
+- View tasks based on completion status
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 ### Frontend:
 - React
@@ -44,7 +42,7 @@ A full-stack Task Management web application that allows users to sign up, log i
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/Task_Manager.git
+git clone https://github.com/Lekhana21/Task_Manager.git
 cd Task_Manager
 
 
@@ -82,7 +80,6 @@ JWT is stored in localStorage for auth.
 Tasks are listed by latest created by default.
 
 
-
 🧗 Challenges Faced
 Managing authentication across frontend & backend
 Protecting routes using middleware
@@ -90,19 +87,5 @@ Making the UI responsive and user-friendly
 Organizing components cleanly for reusability
 
 
-
-📸 Screenshots
-![Home page](frontend/src/screenshots/Home.png)
-![Login Page](frontend/src/screenshots/Login.png)
-![SignUp Page](frontend/src/screenshots/SignUp.png)
-![DasBoard1 Page](frontend/src/screenshots/DashBoard1.png)
-![DasBoard1 Page](frontend/src/screenshots/DashBoard2.png)
-
-
-
-
-🙋 Contact
-Built with ❤️ by Your Name
-Feel free to fork, star ⭐, or reach out!
 
 
