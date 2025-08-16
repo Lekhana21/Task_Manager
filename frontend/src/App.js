@@ -21,7 +21,7 @@ function App() {
   const token=localStorage.getItem("token");//get th etoken
   return (
 
-    <Router>
+    <Router basename="/Task_Manager">
       <Routes>
         <Route path ="/" element ={<Home/>}/>
         <Route path="/LoginPage" element ={<LoginPage/>}/>
