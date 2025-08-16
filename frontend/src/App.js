@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './styles/App.css';
+import bg from "./assets/img.jpg";
 
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import LoginPage from "./requirements/LoginPage";
@@ -20,6 +21,16 @@ import React from "react";
 function App() {
   const token=localStorage.getItem("token");//get th etoken
   return (
+    <div 
+    style={{
+      backgroundImage: `url(${bg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        minHeight: "100vh"
+      
+    }}
+    >
 
     <Router basename="/Task_Manager">
       <Routes>
@@ -29,6 +40,7 @@ function App() {
         <Route path="/dashboard" element ={<DashBoard/>}/>
       </Routes>
     </Router>
+  </div>  
   );
 }
 
