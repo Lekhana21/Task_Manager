@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './styles/App.css';
-import bg from "./assets/img.jpg";
+//import bg from "./assets/img.jpg";
 
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import LoginPage from "./requirements/LoginPage";
