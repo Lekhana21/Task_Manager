@@ -126,7 +126,7 @@ h3{
   
 
 .dashboard{
-    background-image: url('/Task_Manager/img.jpg'); /* adjust path if needed */
+    background-image: url('/img.jpg'); /* adjust path if needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
