@@ -5,7 +5,7 @@ import TaskList from "../varioustasks/TaskList";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-//import img from '../assets/img.jpg'; 
+import img from '../assets/img.jpg'; 
 
 const DashBoard =()=>{
     //const[notifiedTasksnoww,setNotifiedTasksnow]=useState({});
@@ -196,7 +196,7 @@ const DashBoard =()=>{
     
     return (
         <div className ="dashboard" style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)`,
+            backgroundImage: `url(${img})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",

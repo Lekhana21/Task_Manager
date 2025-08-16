@@ -3,7 +3,7 @@ import{Link} from "react-router-dom";
 import {useNavigate} from "react-router-dom";
 
 import '../styles/Home.css';
-
+import img from "../assets/img.jpg"; 
 const Home =()=>{
     const navigate=useNavigate();
     const token = localStorage.getItem("token");
@@ -21,7 +21,7 @@ const Home =()=>{
     return (
         <div className="home"
                     style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)`,
+                backgroundImage: `url(${img})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
