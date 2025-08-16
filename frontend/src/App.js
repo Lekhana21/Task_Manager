@@ -21,16 +21,7 @@ import React from "react";
 function App() {
   const token=localStorage.getItem("token");//get th etoken
   return (
-    <div 
-    style={{
-      backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        minHeight: "100vh"
-      
-    }}
-    >
+    
 
     <Router basename="/Task_Manager">
       <Routes>
@@ -40,7 +31,7 @@ function App() {
         <Route path="/dashboard" element ={<DashBoard/>}/>
       </Routes>
     </Router>
-  </div>  
+  
   );
 }
 

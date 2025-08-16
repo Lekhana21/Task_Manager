@@ -195,7 +195,13 @@ const DashBoard =()=>{
    
     
     return (
-        <div className ="dashboard" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)` }}>
+        <div className ="dashboard" style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            minHeight: "100vh",
+        }}>
             <h1>Task DashBoard</h1>
             
             <div className="task-form">

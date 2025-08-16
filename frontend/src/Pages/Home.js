@@ -19,7 +19,16 @@ const Home =()=>{
         
     };
     return (
-        <div className="home">
+        <div className="home"
+                    style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/img.jpg)`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                minHeight: "100vh",
+            }}
+        >
+
         <h1>Welcome to the Task Manager</h1>
         {/*<button onClick={handleLogin}>Login</button>*/}
         <div className="Buttons">
